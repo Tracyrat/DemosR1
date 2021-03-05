@@ -1,0 +1,30 @@
+package com.javasm.constructortest;
+
+public class ConstructorTest01 {
+	
+
+	public static void main(String[] args) {
+		
+		
+		boolean flag=false;
+		values one=new values();
+		values two=new values();
+		one.i=1;
+		two.i=1;
+		if(one==two)
+			flag=true;
+		System.out.println(flag);
+	}
+	
+	
+}
+
+/*
+ * 
+ * 
+ * 这是一个叫value的类
+*/
+class values
+{
+	int i;
+}

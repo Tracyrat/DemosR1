@@ -1,0 +1,12 @@
+package com.javasm.constructortest;
+
+public class Calculator {
+	
+	public void cal(User one)
+	{
+		int i;s
+		System.out.println(one);
+		System.out.println(this.i);
+	}
+
+}

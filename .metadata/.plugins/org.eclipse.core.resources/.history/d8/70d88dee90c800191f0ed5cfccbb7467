@@ -1,0 +1,10 @@
+package com.javasm.constructortest;
+
+public class User {
+	String name;
+	private User(String name1) {
+		
+		Calculator one=new Calculator();
+		one.cal(this);
+	}
+}

@@ -1,0 +1,15 @@
+package com.tracy.test;
+
+import java.util.Scanner;
+
+public class HelloWorld {
+	public static void main(String[] str) {
+		System.out.println("«Î ‰»Î…„ œ∂»£∫");
+		int f;
+	    Scanner in=new Scanner(System.in);
+		f=in.nextInt();
+	    System.out.println((int)((f-32)*5/9));
+	    
+		
+	}
+}

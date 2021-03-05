@@ -1,0 +1,29 @@
+package com.javasm.test;
+
+import java.util.Collection;
+import java.util.HashSet;
+import java.util.Iterator;
+import java.util.Set;
+
+public class SetTest {
+
+	public static void main(String[] args) {
+		Set set = new HashSet();
+		Set set2=new HashSet();
+		set.add(123);
+		set.add(456);
+		set.add("aa");
+		set.add(new User("Tracy",22));
+		set.add(new User("Tracy",22));
+		set2.add(555);
+		set2.add(666);
+		set.addAll(set2);
+		set.removeAll(set2);
+		Iterator iterator = set.iterator();
+		System.out.println(set.contains(123));
+		while(iterator.hasNext()) {
+			System.out.println(iterator.next());
+			
+		}
+	}
+}

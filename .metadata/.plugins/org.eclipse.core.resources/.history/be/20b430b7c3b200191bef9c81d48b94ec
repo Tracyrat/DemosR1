@@ -1,0 +1,22 @@
+package com.tracy.test;
+
+import java.util.Scanner;
+
+public class HelloWorld {
+	public static void main(String[] args) 
+	{	int count=0;
+		int jishu=0;
+		int oushu=0;
+		int m;
+		do{				
+			Scanner in=new Scanner(System.in);
+			m=in.nextInt();
+			count=count+1;
+			if(m%2==0)
+				oushu=oushu+1;
+			else 
+				jishu=jishu+1;
+				}while(m!=-1);
+		System.out.println("偶数有："+oushu+"次"+"，奇数有："+jishu+"次");
+	}
+}

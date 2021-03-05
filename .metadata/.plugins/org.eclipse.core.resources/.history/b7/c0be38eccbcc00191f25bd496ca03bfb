@@ -1,0 +1,18 @@
+package com.javasm.obj;
+
+public class Benz extends Car{
+	
+	public Benz() {
+		super();
+		int num=4;
+		System.out.println(this.num);
+		// TODO Auto-generated constructor stub
+	}
+
+	public Benz(String name, String color, int wheelnum, String audio) {
+		super(name, color, wheelnum);
+		System.out.println("this is "+audio);
+		// TODO Auto-generated constructor stub
+	}
+	
+}
