@@ -1,9 +1,0 @@
-package com.javasm.constructortest;
-
-public class User {
-	String name;
-	private void show() {
-		
-		System.out.println(this);
-	}
-}

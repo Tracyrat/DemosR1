@@ -1,8 +1,0 @@
-package com.javasm.constructortest;
-
-public class Calculator {
-	public void cal(User one)
-	{
-		System.out.println(one);
-	}
-}

@@ -1,9 +1,0 @@
-package com.javasm.constructortest;
-
-public class User {
-	String name;
-	private User(String name1) {
-		
-		new Calculator().cal(this);
-	}
-}
